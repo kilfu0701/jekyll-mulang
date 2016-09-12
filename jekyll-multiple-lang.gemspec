@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Jekyll::MultipleLang::VERSION
   s.date        = "2016-09-12"
   s.summary     = "A plugin to create multiple language site with Jekyll 3"
-  s.description = "A plugin to create multiple language site with Jekyll 3"
+  s.description = "A plugin to create multiple language site with Jekyll 3."
   s.authors     = ["Andy Su"]
   s.email       = "kilfu0701@gmail.com"
   s.files       = [
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_dependency "jekyll-paginate", ">= 1.1.0"
+  s.add_dependency "jekyll-paginate", '~> 1.1', '>= 1.1.0'
 
   s.add_development_dependency "jekyll", "~> 2.0"
   s.add_development_dependency "bundler", "~> 1.5"
