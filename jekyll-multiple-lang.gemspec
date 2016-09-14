@@ -5,7 +5,7 @@ require 'jekyll-multiple-lang/version'
 Gem::Specification.new do |s|
   s.name        = "jekyll-multiple-lang"
   s.version     = Jekyll::MultipleLang::VERSION
-  s.date        = "2016-09-12"
+  s.date        = Jekyll::MultipleLang::RELEASES
   s.summary     = "A plugin to create multiple language site with Jekyll 3"
   s.description = "A plugin to create multiple language site with Jekyll 3."
   s.authors     = ["Andy Su"]
