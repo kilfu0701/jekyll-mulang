@@ -5,13 +5,13 @@ A plugin to create multiple language site with Jekyll 3.
 
 Install plugin:
 ```
-gem install jekyll-multiple-lang
+gem install jekyll-mulang
 ```
 
 Config:
   - Add some config into `_config.yml` :
 ```yaml
-# settings for multiple-lang
+# settings for multiple language
 multiple_lang:
   lang: &langs
     en: &lang_en
