@@ -1,4 +1,4 @@
-# jekyll-multiple-lang
+# jekyll-mulang
 A plugin to create multiple language site with Jekyll 3.
 
 ## Install & Setup
@@ -52,7 +52,7 @@ defaults:
 
 gems:
   - jekyll-paginate
-  - jekyll-multiple-lang
+  - jekyll-mulang
 ```
   - Modify `Gemfile` file :
 ```ruby
@@ -61,7 +61,7 @@ gem 'jekyll'
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem "jekyll-multiple-lang"
+  gem "jekyll-mulang"
 end
 ```
   - Create directories that relate to `baseurl` in `_config.yml` :

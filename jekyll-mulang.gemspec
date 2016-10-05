@@ -1,23 +1,23 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-multiple-lang/version'
+require 'jekyll-mulang/version'
 
 Gem::Specification.new do |s|
-  s.name        = "jekyll-multiple-lang"
-  s.version     = Jekyll::MultipleLang::VERSION
-  s.date        = Jekyll::MultipleLang::RELEASES
+  s.name        = "jekyll-mulang"
+  s.version     = Jekyll::MuLang::VERSION
+  s.date        = Jekyll::MuLang::RELEASES
   s.summary     = "A plugin to create multiple language site with Jekyll 3"
   s.description = "A plugin to create multiple language site with Jekyll 3."
   s.authors     = ["Andy Su"]
   s.email       = "kilfu0701@gmail.com"
   s.files       = [
-    "lib/jekyll-multiple-lang.rb",
-    "lib/jekyll-multiple-lang/pager.rb",
-    "lib/jekyll-multiple-lang/pagination.rb",
-    "lib/jekyll-multiple-lang/version.rb"
+    "lib/jekyll-mulang.rb",
+    "lib/jekyll-mulang/pager.rb",
+    "lib/jekyll-mulang/pagination.rb",
+    "lib/jekyll-mulang/version.rb"
   ]
   s.homepage    =
-    'http://rubygems.org/gems/jekyll-multiple-lang'
+    'http://rubygems.org/gems/jekyll-mulang'
   s.license       = 'MIT'
 
   s.require_paths = ["lib"]
