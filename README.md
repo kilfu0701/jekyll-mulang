@@ -12,7 +12,7 @@ Config:
   - Add some config into `_config.yml` :
 ```yaml
 # settings for multiple language
-multiple_lang:
+mulang:
   lang: &langs
     en: &lang_en
       baseurl: /en/
